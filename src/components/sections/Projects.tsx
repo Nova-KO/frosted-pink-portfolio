@@ -1,7 +1,7 @@
 import React from 'react';
 import GlassCard from '../ui/GlassCard';
 import SectionTitle from '../ui/SectionTitle';
-import { ExternalLink, github } from 'lucide-react';
+import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
@@ -81,7 +81,7 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     className="flex items-center text-white/70 hover:text-pink-500 transition-colors"
                   >
-                    <github size={18} className="mr-1" />
+                    <Github size={18} className="mr-1" />
                     <span>Code</span>
                   </a>
                   <a 
