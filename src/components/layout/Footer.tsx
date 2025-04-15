@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { GitHub, Linkedin, Twitter, ArrowUp } from 'lucide-react';
+import { github, Linkedin, Twitter, ArrowUp } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const Footer = () => {
@@ -31,7 +30,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="text-white/70 hover:text-pink-500 transition-colors"
             >
-              <GitHub size={20} />
+              <github size={20} />
             </a>
             <a 
               href="https://linkedin.com" 

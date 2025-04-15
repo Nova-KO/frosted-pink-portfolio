@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { ArrowDown, GitHub, Linkedin, Twitter } from 'lucide-react';
+import { ArrowDown, github, Linkedin, Twitter } from 'lucide-react';
 import GlassCard from '../ui/GlassCard';
 
 const Hero = () => {
@@ -26,7 +25,7 @@ const Hero = () => {
           <div className="flex items-center space-x-4 mb-8">
             <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
               className="p-2 text-white/70 hover:text-pink-500 transition-colors duration-300">
-              <GitHub size={24} />
+              <github size={24} />
             </a>
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" 
               className="p-2 text-white/70 hover:text-pink-500 transition-colors duration-300">
