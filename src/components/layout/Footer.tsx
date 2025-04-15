@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Github, Linkedin, Twitter, ArrowUp } from 'lucide-react';
 import { cn } from '@/lib/utils';
@@ -16,10 +17,13 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <a href="#home" className="text-2xl font-bold pink-glow">
-              <span className="text-gradient">Portfolio</span>
+              <span className="text-gradient">Anjali Jayadevan</span>
             </a>
             <p className="text-white/60 mt-2 text-sm">
               © {new Date().getFullYear()} All Rights Reserved
+            </p>
+            <p className="text-white/60 mt-1 text-sm">
+              India | <a href="mailto:anjali@bshtechnologies.in" className="hover:text-pink-400 transition-colors">anjali@bshtechnologies.in</a>
             </p>
           </div>
           

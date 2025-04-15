@@ -6,38 +6,42 @@ import SectionTitle from '../ui/SectionTitle';
 const skillCategories = [
   {
     id: 1,
-    title: "Frontend Development",
+    title: "Technical Skills",
     skills: [
-      { name: "HTML5", level: 95 },
-      { name: "CSS3/Sass", level: 90 },
-      { name: "JavaScript", level: 92 },
-      { name: "TypeScript", level: 85 },
-      { name: "React", level: 90 },
-      { name: "Next.js", level: 80 },
-      { name: "Tailwind CSS", level: 88 },
+      { name: "HTML", level: 85 },
+      { name: "CSS", level: 80 },
+      { name: "JavaScript", level: 75 },
+      { name: "Bootstrap", level: 82 },
+      { name: "MySQL", level: 70 },
+      { name: "Troubleshooting", level: 90 },
+      { name: "Manual Testing", level: 85 },
     ]
   },
   {
     id: 2,
-    title: "Backend Development",
+    title: "Soft Skills",
     skills: [
-      { name: "Node.js", level: 82 },
-      { name: "Express", level: 78 },
-      { name: "MongoDB", level: 75 },
-      { name: "REST APIs", level: 85 },
-      { name: "GraphQL", level: 70 },
+      { name: "Professional Communication", level: 95 },
+      { name: "Leadership", level: 90 },
+      { name: "Collaboration", level: 88 },
+      { name: "Problem Solving", level: 92 },
+      { name: "Adaptability", level: 88 },
+      { name: "Talent Acquisition", level: 85 },
     ]
   },
   {
     id: 3,
-    title: "Tools & Others",
+    title: "Tools & Software",
     skills: [
-      { name: "Git/GitHub", level: 88 },
-      { name: "Webpack", level: 75 },
-      { name: "Docker", level: 65 },
-      { name: "Jest", level: 80 },
-      { name: "Figma", level: 70 },
-      { name: "Responsive Design", level: 90 },
+      { name: "Git", level: 80 },
+      { name: "Jira", level: 85 },
+      { name: "VS Studio", level: 82 },
+      { name: "Postman", level: 75 },
+      { name: "Office 365", level: 90 },
+      { name: "Canva", level: 88 },
+      { name: "ServiceNow", level: 85 },
+      { name: "Citrix Workspace", level: 80 },
+      { name: "Workday", level: 75 },
     ]
   }
 ];

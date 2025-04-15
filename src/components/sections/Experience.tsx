@@ -7,41 +7,56 @@ import { Calendar, MapPin } from 'lucide-react';
 const experiences = [
   {
     id: 1,
-    title: "Senior Frontend Developer",
-    company: "TechCorp Inc.",
-    period: "2022 - Present",
-    location: "San Francisco, CA",
-    description: "Leading the frontend development team, implementing modern web applications using React, TypeScript and Next.js. Optimizing performance and ensuring accessibility compliance.",
+    title: "Senior Assistant Helpdesk Technician",
+    company: "DXC Technology",
+    period: "Sep 2023 - Present",
+    location: "Remote",
+    description: "Providing technical support and troubleshooting for IT systems.",
     highlights: [
-      "Reduced page load time by 40% through code splitting and lazy loading",
-      "Implemented CI/CD pipeline for frontend projects",
-      "Mentored junior developers and conducted code reviews"
+      "Assisting end-users with hardware and software issues, ensuring timely resolution",
+      "Maintaining and troubleshooting network connectivity issues",
+      "Installing and configuring software applications and updates",
+      "Collaborating with cross-functional teams to resolve complex technical issues"
     ]
   },
   {
     id: 2,
-    title: "Frontend Developer",
-    company: "WebSolutions Ltd.",
-    period: "2019 - 2022",
-    location: "Boston, MA",
-    description: "Developed responsive web interfaces and implemented user experience improvements. Worked closely with designers and backend developers to deliver high-quality products.",
+    title: "Co-Founder",
+    company: "BSH Technologies",
+    period: "Oct 2021 - Present",
+    location: "Remote",
+    description: "Co-founded BSH Technologies, an initiative aimed at bridging the gap between academia and industry.",
     highlights: [
-      "Built interactive dashboards using React and D3.js",
-      "Implemented responsive designs for 15+ client websites",
-      "Integrated RESTful APIs with frontend applications"
+      "Providing students with exposure to corporate and business working environments",
+      "Led the development of the company's vision, strategy, and operations",
+      "Managing a team with 5+ members and 100+ students"
     ]
   },
   {
     id: 3,
-    title: "Junior Web Developer",
-    company: "StartupHub",
-    period: "2017 - 2019",
-    location: "Seattle, WA",
-    description: "Assisted in developing website features and maintaining existing web applications. Learned modern web development practices and frameworks on the job.",
+    title: "Campus Community Manager",
+    company: "Google DSC Kerala",
+    period: "Jun 2022 - Jul 2023",
+    location: "Kerala, India",
+    description: "Co-Lead the GDSC-IES chapter as the GDSC (Google Developer Student Clubs) community manager.",
     highlights: [
-      "Created landing pages for marketing campaigns",
-      "Implemented pixel-perfect designs from Figma mockups",
-      "Collaborated in an agile development environment"
+      "Organizer and speaker for the IES GDSC compose camp on android development",
+      "Organized and executed various technical and non-technical events, workshops, and hackathons",
+      "Mentored and trained students in various technical skills",
+      "Achieved Tier 1 Position in Google's Leaderboard"
+    ]
+  },
+  {
+    id: 4,
+    title: "Chief Resource Officer",
+    company: "IES IEDC/IIC",
+    period: "Jun 2022 - Jul 2023",
+    location: "Kerala, India",
+    description: "Led the Innovation and Entrepreneurship Development Cell (IEDC) as the CRO, managing a team of 200+ members and 10+ executives.",
+    highlights: [
+      "Developed and executed various programs to promote innovation and entrepreneurship",
+      "Implemented strategic plan resulting in 25% increase in membership and 30% increase in funding",
+      "Managed budget of 350,000 INR and ensured efficient utilization of resources"
     ]
   }
 ];
@@ -85,7 +100,7 @@ const Experience = () => {
                   
                   <div className="md:w-2/3">
                     <p className="text-white/80 mb-4">{exp.description}</p>
-                    <h4 className="text-pink-400 font-medium mb-2">Key Achievements:</h4>
+                    <h4 className="text-pink-400 font-medium mb-2">Key Responsibilities:</h4>
                     <ul className="list-disc list-inside space-y-1 text-white/70">
                       {exp.highlights.map((highlight, i) => (
                         <li key={i}>{highlight}</li>

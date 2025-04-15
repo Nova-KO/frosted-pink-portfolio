@@ -1,3 +1,4 @@
+
 import React from 'react';
 import GlassCard from '../ui/GlassCard';
 import SectionTitle from '../ui/SectionTitle';
@@ -6,30 +7,30 @@ import { ExternalLink, Github } from 'lucide-react';
 const projects = [
   {
     id: 1,
-    title: "E-Commerce Dashboard",
-    description: "A comprehensive dashboard for e-commerce businesses, featuring real-time analytics, inventory management, and order processing.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&q=85&w=500&auto=format&fit=crop",
-    tags: ["React", "TypeScript", "Tailwind CSS", "Chart.js"],
-    liveLink: "https://project-demo.com",
-    repoLink: "https://github.com/username/project"
+    title: "Healthify+",
+    description: "An open healthcare platform to increase transparency and competition, preventing hospital monopolies and empowering patients with more choices.",
+    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&q=85&w=500&auto=format&fit=crop",
+    tags: ["Final Year Project", "Jun 2022 - Aug 2023"],
+    liveLink: "#",
+    repoLink: "https://github.com"
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "A Kanban-style task management application with drag-and-drop functionality, team collaboration features, and customizable workflows.",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&q=85&w=500&auto=format&fit=crop",
-    tags: ["React", "Redux", "Node.js", "MongoDB"],
-    liveLink: "https://project-demo.com",
-    repoLink: "https://github.com/username/project"
+    title: "Google DSC Compose Camp",
+    description: "Organized and spoke at the IES GDSC compose camp on Android development, providing hands-on training sessions for students.",
+    image: "https://images.unsplash.com/photo-1517292987719-0369a794ec0f?ixlib=rb-4.0.3&q=85&w=500&auto=format&fit=crop",
+    tags: ["Android", "Compose", "Workshop"],
+    liveLink: "#",
+    repoLink: "https://github.com"
   },
   {
     id: 3,
-    title: "Fitness Tracker",
-    description: "A mobile-responsive fitness tracking application that allows users to log workouts, track progress, and set fitness goals.",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&q=85&w=500&auto=format&fit=crop",
-    tags: ["React Native", "Firebase", "Redux", "Victory Charts"],
-    liveLink: "https://project-demo.com",
-    repoLink: "https://github.com/username/project"
+    title: "IEDC Innovation Hub",
+    description: "Led initiatives to promote innovation and entrepreneurship among students, resulting in increased membership and funding.",
+    image: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&q=85&w=500&auto=format&fit=crop",
+    tags: ["Leadership", "Innovation", "Entrepreneurship"],
+    liveLink: "#",
+    repoLink: "https://github.com"
   }
 ];
 
@@ -39,7 +40,7 @@ const Projects = () => {
       <div className="container mx-auto">
         <SectionTitle 
           title="My Projects" 
-          subtitle="Here are some of my recent works and personal projects"
+          subtitle="Here are some of my notable projects and initiatives"
         />
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { ArrowDown, Github, Linkedin, Twitter } from 'lucide-react';
 import GlassCard from '../ui/GlassCard';
@@ -12,14 +13,14 @@ const Hero = () => {
         <div className="order-2 lg:order-1 animate-fade-in">
           <p className="text-pink-500 font-medium mb-2">Hi there, I'm</p>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-            <span className="text-gradient">John Doe</span>
+            <span className="text-gradient">Anjali Jayadevan</span>
           </h1>
           <h2 className="text-2xl md:text-3xl text-white/80 mb-6">
-            I build things for the web
+            Customer Success & Technical Support Specialist
           </h2>
           <p className="text-lg text-white/60 mb-8 max-w-xl">
-            I'm a web developer specializing in building exceptional digital experiences.
-            Currently, I'm focused on creating accessible, human-centered products.
+            Customer-focused professional with 18+ months of corporate experience and 4+ years in leadership roles. 
+            Skilled in customer support, technical troubleshooting, and fostering client relationships.
           </p>
           
           <div className="flex items-center space-x-4 mb-8">
@@ -49,8 +50,8 @@ const Hero = () => {
           <GlassCard className="p-2 max-w-md" glowEffect>
             <div className="relative overflow-hidden rounded-xl">
               <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&q=85&w=500&auto=format&fit=crop" 
-                alt="John Doe" 
+                src="/lovable-uploads/c2ec0826-05a8-4f02-a524-48bb60780bfc.png" 
+                alt="Anjali Jayadevan" 
                 className="w-full h-auto object-cover rounded-xl"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-pink-500/30 to-transparent opacity-60"></div>
