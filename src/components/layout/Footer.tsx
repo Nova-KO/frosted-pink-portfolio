@@ -16,14 +16,14 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <a href="#home" className="text-2xl font-bold pink-glow">
-              <span className="text-gradient">Anjali Jayadevan</span>
+            <a href="#home" className="text-2xl font-bold pink-glow light-theme:pink-glow">
+              <span className="text-gradient">BSH Technologies</span>
             </a>
             <p className="text-white/60 light-theme:text-gray-600 mt-2 text-sm">
               © {new Date().getFullYear()} All Rights Reserved
             </p>
             <p className="text-white/60 light-theme:text-gray-600 mt-1 text-sm">
-              India | <a href="mailto:anjali@bshtechnologies.in" className="hover:text-pink-400 light-theme:hover:text-indigo-600 transition-colors">anjali@bshtechnologies.in</a>
+              India | <a href="mailto:info@bshtechnologies.in" className="hover:text-pink-400 light-theme:hover:text-indigo-600 transition-colors">info@bshtechnologies.in</a>
             </p>
           </div>
           

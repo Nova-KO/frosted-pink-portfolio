@@ -40,7 +40,7 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
-        <a href="#home" className="text-2xl font-bold pink-glow">
+        <a href="#home" className="text-2xl font-bold pink-glow light-theme:pink-glow">
           <span className="text-gradient">BSH Technologies</span>
         </a>
 
