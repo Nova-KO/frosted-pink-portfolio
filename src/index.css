@@ -27,8 +27,30 @@
     --radius: 0.75rem;
   }
 
+  .light-theme {
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    --primary: 245 58% 51%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222 47% 11%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215 16% 47%;
+    --accent: 245 58% 51%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 245 58% 51%;
+  }
+
   * {
-    @apply border-border selection:bg-pink-500/20 selection:text-white;
+    @apply border-border selection:bg-pink-500/20 selection:text-white light-theme:selection:bg-indigo-500/20 light-theme:selection:text-indigo-900;
     font-family: 'Inter', sans-serif;
   }
   
@@ -42,6 +64,13 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+  }
+
+  .light-theme body {
+    background-color: #ffffff;
+    background-image: 
+      radial-gradient(circle at 15% 50%, rgba(79, 70, 229, 0.08) 0%, transparent 25%),
+      radial-gradient(circle at 85% 30%, rgba(79, 70, 229, 0.08) 0%, transparent 25%);
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -68,6 +97,11 @@
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   }
   
+  .light-theme .glass {
+    @apply backdrop-blur-xl bg-white/80 border border-indigo-100/50 shadow-lg;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+  }
+  
   .glass-card {
     @apply glass rounded-2xl p-6;
   }
@@ -76,12 +110,24 @@
     text-shadow: 0 0 10px rgba(236, 72, 153, 0.5);
   }
   
+  .light-theme .pink-glow {
+    text-shadow: 0 0 10px rgba(79, 70, 229, 0.5);
+  }
+  
   .glass-input {
     @apply bg-white/5 backdrop-blur-md border border-white/10 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-pink-500/50 transition-all;
   }
   
+  .light-theme .glass-input {
+    @apply bg-white/80 backdrop-blur-md border border-indigo-100 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500/50 transition-all;
+  }
+  
   .text-gradient {
     @apply bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 text-transparent bg-clip-text;
+  }
+  
+  .light-theme .text-gradient {
+    @apply bg-gradient-to-r from-indigo-400 via-purple-500 to-indigo-600 text-transparent bg-clip-text;
   }
   
   .section-padding {

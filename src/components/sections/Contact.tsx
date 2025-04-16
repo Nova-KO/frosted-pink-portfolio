@@ -23,7 +23,7 @@ const Contact = () => {
               hoverEffect
             >
               <Mail 
-                className="text-pink-400 group-hover:text-pink-500 transition-colors" 
+                className="text-pink-400 group-hover:text-pink-500 transition-colors light-theme:text-indigo-500 light-theme:group-hover:text-indigo-600" 
                 size={32} 
               />
             </GlassCard>
@@ -40,7 +40,7 @@ const Contact = () => {
               hoverEffect
             >
               <Linkedin 
-                className="text-pink-400 group-hover:text-pink-500 transition-colors" 
+                className="text-pink-400 group-hover:text-pink-500 transition-colors light-theme:text-indigo-500 light-theme:group-hover:text-indigo-600" 
                 size={32} 
               />
             </GlassCard>
