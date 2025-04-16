@@ -16,12 +16,12 @@ const About = () => {
           <div className="animate-fade-in">
             <GlassCard>
               <h3 className="text-xl font-semibold mb-4 text-gradient">Get to know me</h3>
-              <div className="space-y-4 text-white/80">
+              <div className="space-y-4 text-white/80 light-theme:text-gray-700">
                 <p>
-                  I'm a <strong className="text-pink-400">Customer Success & Technical Support Specialist</strong> with experience in providing technical support, troubleshooting, and maintaining IT systems. Currently working as a Senior Assistant Helpdesk Technician at DXC Technology.
+                  I'm a <strong className="text-pink-400 light-theme:text-indigo-600">Customer Success & Technical Support Specialist</strong> with experience in providing technical support, troubleshooting, and maintaining IT systems. Currently working as a Senior Assistant Helpdesk Technician at DXC Technology.
                 </p>
                 <p>
-                  I'm also the <strong className="text-pink-400">Co-Founder of BSH Technologies</strong>, an initiative aimed at bridging the gap between academia and industry. We help students gain exposure to corporate and business working environments.
+                  I'm also the <strong className="text-pink-400 light-theme:text-indigo-600">Co-Founder of BSH Technologies</strong>, an initiative aimed at bridging the gap between academia and industry. We help students gain exposure to corporate and business working environments.
                 </p>
                 <p>
                   With certifications in Google Project Management, Digital Marketing, and IT Support, I'm equipped with the skills to drive customer success through effective communication, problem-solving, and strategic collaboration.
@@ -31,7 +31,7 @@ const About = () => {
               <div className="mt-6">
                 <a 
                   href="#contact" 
-                  className="inline-flex items-center bg-pink-600 text-white px-6 py-3 rounded-full font-medium hover:bg-pink-700 transition-colors"
+                  className="inline-flex items-center bg-pink-600 light-theme:bg-indigo-600 text-white px-6 py-3 rounded-full font-medium hover:bg-pink-700 light-theme:hover:bg-indigo-700 transition-colors"
                 >
                   Contact Me
                 </a>
@@ -44,22 +44,22 @@ const About = () => {
               <h3 className="text-xl font-semibold mb-4 text-gradient">Education & Certificates</h3>
               
               <div className="space-y-6">
-                <div className="border-l-2 border-pink-500 pl-4 py-1">
+                <div className="border-l-2 border-pink-500 light-theme:border-indigo-500 pl-4 py-1">
                   <h4 className="text-lg font-medium">B.Tech</h4>
-                  <p className="text-white/60">IES College of Engineering, Kerala, India</p>
-                  <p className="text-white/60">Graduated: July 2023 (8.2 CGP)</p>
+                  <p className="text-white/60 light-theme:text-gray-600">IES College of Engineering, Kerala, India</p>
+                  <p className="text-white/60 light-theme:text-gray-600">Graduated: July 2023 (8.2 CGP)</p>
                 </div>
                 
-                <div className="border-l-2 border-pink-500 pl-4 py-1">
+                <div className="border-l-2 border-pink-500 light-theme:border-indigo-500 pl-4 py-1">
                   <h4 className="text-lg font-medium">Senior Secondary</h4>
-                  <p className="text-white/60">H.F.C.G.H.S.S, Kerala, India</p>
-                  <p className="text-white/60">Graduated: May 2018</p>
+                  <p className="text-white/60 light-theme:text-gray-600">H.F.C.G.H.S.S, Kerala, India</p>
+                  <p className="text-white/60 light-theme:text-gray-600">Graduated: May 2018</p>
                 </div>
                 
-                <div className="border-l-2 border-pink-500 pl-4 py-1">
+                <div className="border-l-2 border-pink-500 light-theme:border-indigo-500 pl-4 py-1">
                   <h4 className="text-lg font-medium">Higher Secondary (SSLC)</h4>
-                  <p className="text-white/60">S.H.C.G.H.S.S, Kerala, India</p>
-                  <p className="text-white/60">Graduated: May 2016</p>
+                  <p className="text-white/60 light-theme:text-gray-600">S.H.C.G.H.S.S, Kerala, India</p>
+                  <p className="text-white/60 light-theme:text-gray-600">Graduated: May 2016</p>
                 </div>
               </div>
             </GlassCard>

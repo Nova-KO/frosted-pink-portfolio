@@ -69,12 +69,12 @@ const Skills = () => {
                   {category.skills.map((skill, i) => (
                     <div key={i}>
                       <div className="flex justify-between mb-1">
-                        <span className="text-white/80">{skill.name}</span>
-                        <span className="text-pink-400">{skill.level}%</span>
+                        <span className="text-white/80 light-theme:text-gray-700">{skill.name}</span>
+                        <span className="text-pink-400 light-theme:text-indigo-600">{skill.level}%</span>
                       </div>
-                      <div className="h-2 w-full bg-white/10 rounded-full overflow-hidden">
+                      <div className="h-2 w-full bg-white/10 light-theme:bg-gray-200 rounded-full overflow-hidden">
                         <div 
-                          className="h-full bg-gradient-to-r from-pink-600 to-pink-400 rounded-full"
+                          className="h-full bg-gradient-to-r from-pink-600 to-pink-400 light-theme:from-indigo-600 light-theme:to-purple-400 rounded-full"
                           style={{ width: `${skill.level}%` }}
                         ></div>
                       </div>

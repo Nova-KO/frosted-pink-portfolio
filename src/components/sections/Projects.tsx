@@ -41,7 +41,7 @@ const Projects = () => {
                 
                 <h3 className="text-xl font-semibold mb-2 text-gradient">{project.title}</h3>
                 
-                <p className="text-white/70 dark:text-white/70 light-theme:text-gray-700 mb-4 flex-grow">{project.description}</p>
+                <p className="text-white/70 light-theme:text-gray-700 mb-4 flex-grow">{project.description}</p>
                 
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag, i) => (

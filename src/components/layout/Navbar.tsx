@@ -35,7 +35,7 @@ const Navbar = () => {
     <nav 
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-4 px-6 md:px-12",
-        scrolled ? "bg-black/80 dark:bg-black/80 backdrop-blur-lg shadow-md light:bg-white/80" : "bg-transparent"
+        scrolled ? "bg-black/80 backdrop-blur-lg shadow-md light-theme:bg-white/80" : "bg-transparent"
       )}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
@@ -48,7 +48,7 @@ const Navbar = () => {
           {/* Theme Toggle */}
           <button 
             onClick={toggleTheme} 
-            className="p-2 rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-colors"
+            className="p-2 rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 light-theme:bg-indigo-500/10 light-theme:hover:bg-indigo-500/20 transition-colors"
             aria-label="Toggle theme"
           >
             {theme === 'dark' ? (
@@ -64,7 +64,7 @@ const Navbar = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-white/80 dark:text-white/80 light:text-gray-800 hover:text-pink-500 dark:hover:text-pink-500 light:hover:text-indigo-600 transition-colors duration-300"
+                className="text-white/80 hover:text-pink-500 light-theme:text-gray-800 light-theme:hover:text-indigo-600 transition-colors duration-300"
               >
                 {link.name}
               </a>
@@ -73,7 +73,7 @@ const Navbar = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-white/90 hover:text-pink-500 transition-colors"
+            className="md:hidden text-white/90 hover:text-pink-500 light-theme:text-gray-800 light-theme:hover:text-indigo-600 transition-colors"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
             {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -93,7 +93,7 @@ const Navbar = () => {
             <a
               key={link.name}
               href={link.href}
-              className="text-white/80 hover:text-pink-500 transition-colors"
+              className="text-white/80 hover:text-pink-500 light-theme:text-gray-800 light-theme:hover:text-indigo-600 transition-colors"
               onClick={() => setMobileMenuOpen(false)}
             >
               {link.name}

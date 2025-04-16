@@ -72,7 +72,7 @@ const Experience = () => {
         
         <div className="space-y-8 relative">
           {/* Timeline line */}
-          <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-pink-500/80 to-pink-500/20 hidden md:block"></div>
+          <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-pink-500/80 to-pink-500/20 light-theme:from-indigo-500/80 light-theme:to-indigo-500/20 hidden md:block"></div>
           
           {experiences.map((exp, index) => (
             <div 
@@ -82,26 +82,26 @@ const Experience = () => {
             >
               <GlassCard className="relative md:ml-16" hoverEffect>
                 {/* Timeline dot */}
-                <div className="absolute left-[-38px] top-1/4 w-5 h-5 rounded-full bg-pink-500 hidden md:block"></div>
+                <div className="absolute left-[-38px] top-1/4 w-5 h-5 rounded-full bg-pink-500 light-theme:bg-indigo-500 hidden md:block"></div>
                 
                 <div className="flex flex-col md:flex-row gap-4">
                   <div className="md:w-1/3">
                     <h3 className="text-xl font-semibold mb-2 text-gradient">{exp.title}</h3>
-                    <p className="text-white/80 font-medium">{exp.company}</p>
-                    <div className="flex items-center text-white/60 mt-2">
+                    <p className="text-white/80 font-medium light-theme:text-gray-800">{exp.company}</p>
+                    <div className="flex items-center text-white/60 light-theme:text-gray-600 mt-2">
                       <Calendar size={16} className="mr-2" />
                       <span>{exp.period}</span>
                     </div>
-                    <div className="flex items-center text-white/60 mt-1">
+                    <div className="flex items-center text-white/60 light-theme:text-gray-600 mt-1">
                       <MapPin size={16} className="mr-2" />
                       <span>{exp.location}</span>
                     </div>
                   </div>
                   
                   <div className="md:w-2/3">
-                    <p className="text-white/80 mb-4">{exp.description}</p>
-                    <h4 className="text-pink-400 font-medium mb-2">Key Responsibilities:</h4>
-                    <ul className="list-disc list-inside space-y-1 text-white/70">
+                    <p className="text-white/80 light-theme:text-gray-800 mb-4">{exp.description}</p>
+                    <h4 className="text-pink-400 light-theme:text-indigo-600 font-medium mb-2">Key Responsibilities:</h4>
+                    <ul className="list-disc list-inside space-y-1 text-white/70 light-theme:text-gray-700">
                       {exp.highlights.map((highlight, i) => (
                         <li key={i}>{highlight}</li>
                       ))}
