@@ -50,8 +50,16 @@
   }
 
   * {
-    @apply border-border selection:bg-pink-500/20 selection:text-white light-theme:selection:bg-indigo-500/20 light-theme:selection:text-indigo-900;
+    @apply border-border;
     font-family: 'Inter', sans-serif;
+  }
+  
+  *::selection {
+    @apply bg-pink-500/20 text-white;
+  }
+  
+  .light-theme *::selection {
+    @apply bg-indigo-500/20 text-indigo-900;
   }
   
   body {
